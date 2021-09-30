@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2bdf9a6-3d55-4934-8237-6f21f91d6651" name="Changes" comment="- Add save function">
-      <change afterPath="$PROJECT_DIR$/main/migrations/0003_alter_product_create_at.py" afterDir="false" />
-    </list>
+    <list default="true" id="e2bdf9a6-3d55-4934-8237-6f21f91d6651" name="Changes" comment="- Add requirements.txt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633025393809</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="- Add requirements.txt">
+      <created>1633027677991</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1633027677991</updated>
+    </task>
+    <task id="LOCAL-00006" summary="- Add requirements.txt">
+      <created>1633027808448</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633027808448</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +115,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="- Add some new pages &#10;- Add one new model &quot;wishlist&quot;" />
     <MESSAGE value="- Add save function" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Add save function" />
+    <MESSAGE value="- Add requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Add requirements.txt" />
   </component>
 </project>
