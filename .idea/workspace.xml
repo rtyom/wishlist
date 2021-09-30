@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2bdf9a6-3d55-4934-8237-6f21f91d6651" name="Changes" comment="- Add some new pages &#10;- Add one new model &quot;wishlist&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/wish_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/wish_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+    <list default="true" id="e2bdf9a6-3d55-4934-8237-6f21f91d6651" name="Changes" comment="- Add save function">
+      <change afterPath="$PROJECT_DIR$/main/migrations/0003_alter_product_create_at.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +42,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -81,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633005465585</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- Add save function">
+      <created>1633025393809</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633025393809</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,7 +100,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="- Add some new pages &#10;- Add one new model &quot;wishlist&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Add some new pages &#10;- Add one new model &quot;wishlist&quot;" />
+    <MESSAGE value="- Add save function" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Add save function" />
   </component>
 </project>
