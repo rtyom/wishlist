@@ -5,7 +5,8 @@
     <h2>Хочу, чтобы мне подарили: </h2>
 
     {% if is_owner_list %}
-        <form method="POST" class="">
+        <form method="POST">
+            {% csrf_token %}
             {{ form.as_p}}
             <button type="submit"> Добавить </button>
         </form>

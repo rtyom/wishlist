@@ -12,14 +12,21 @@ def about(request):
 
 def list_page(request, pk):
     wish_list = get_object_or_404(WishList, pk=pk)
-    if request.method.POST:
+
+    if request.method == 'POST':
+        form = ProductForm(request.POST)
+        instance_product = form.save()
+        wish_list.product.add(instance_product)
+        wish_list.save()
+    elif request.method == 'GET':
         form = ProductForm
-        return render(
-            request,
-            'wish_list.html',
-            {
-                'list': wish_list,
-                'is_owner_list': wish_list.owner == request.user,
-                'form': form
-            }
+
+    return render(
+        request,
+        'wish_list.html',
+        {
+          'list': wish_list,
+          'is_owner_list': wish_list.owner == request.user,
+          'form': form
+        }
     )
