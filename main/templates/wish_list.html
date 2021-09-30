@@ -5,7 +5,10 @@
     <h2>Хочу, чтобы мне подарили: </h2>
 
     {% if is_owner_list %}
-        <input type="text" placeholder="Добавить желание"><br />
+        <form method="POST" class="">
+            {{ form.as_p}}
+            <button type="submit"> Добавить </button>
+        </form>
     {% endif %}
 
     {% for product in list.product.all %}
