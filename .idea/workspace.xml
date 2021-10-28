@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2bdf9a6-3d55-4934-8237-6f21f91d6651" name="Changes" comment="- Add requirements.txt" />
+    <list default="true" id="e2bdf9a6-3d55-4934-8237-6f21f91d6651" name="Changes" comment="- Add production ip host">
+      <change afterPath="$PROJECT_DIR$/women/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/women/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/women/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/women/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/women/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/women/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/women/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/women/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wishlist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wishlist.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishlist/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/wishlist/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishlist/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/wishlist/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +58,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -97,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633027808448</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="- Add production ip host">
+      <created>1633029029293</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1633029029293</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,12 +131,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="- Add some new pages &#10;- Add one new model &quot;wishlist&quot;" />
     <MESSAGE value="- Add save function" />
     <MESSAGE value="- Add requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Add requirements.txt" />
+    <MESSAGE value="- Add production ip host" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Add production ip host" />
   </component>
 </project>
